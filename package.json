@@ -2,8 +2,28 @@
   "name": "fnb",
   "version": "1.0.0",
   "description": "Fully-featured API wrapper for the FNB online banking platform.",
-  "main": "build/index.js",
+  "main": "build/src/index.js",
   "repository": "git@github.com:nunsie/FNB.git",
   "author": "Nusrath Khan <nusrath501khan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "build": "tsc -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json",
+    "lint": "tslint -t stylish --project \"tsconfig.json\"",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.17.0",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tsutils": "^3.10.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.12"
+  }
 }
