@@ -13,21 +13,14 @@ Fully-featured API wrapper for the FNB online banking platform.
 
 ## Features
 
-[ ] username / password based authentication.
-
-[ ] accounts listing
-
-[ ] cards listing
-
-[ ] account transaction history
-
-[ ] account detailed balance
-
-[ ] transfers
-
-[ ] payments history
-
-[ ] once-off payments
+- [ ] username / password based authentication.
+- [ ] accounts listing
+- [ ] cards listing
+- [ ] account transaction history
+- [ ] account detailed balance
+- [ ] transfers
+- [ ] payments history
+- [ ] once-off payments
 
 ## Install
 
