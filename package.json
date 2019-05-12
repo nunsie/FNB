@@ -1,0 +1,9 @@
+{
+  "name": "fnb",
+  "version": "1.0.0",
+  "description": "Fully-featured API wrapper for the FNB online banking platform.",
+  "main": "build/index.js",
+  "repository": "git@github.com:nunsie/FNB.git",
+  "author": "Nusrath Khan <nusrath501khan@gmail.com>",
+  "license": "MIT"
+}
