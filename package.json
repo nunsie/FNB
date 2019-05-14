@@ -15,6 +15,7 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.12",
     "jest": "^24.8.0",
     "prettier": "^1.17.0",
     "rimraf": "^2.6.3",
@@ -24,6 +25,7 @@
     "typescript": "^3.4.5"
   },
   "dependencies": {
-    "@types/jest": "^24.0.12"
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^1.15.0"
   }
 }
