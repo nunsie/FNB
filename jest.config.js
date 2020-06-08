@@ -1,5 +1,6 @@
 module.exports = {
   testEnvironment: 'node',
+  setupTestFrameworkScriptFile: './jest.setup.js',
   transform: {
     "^.+\\.tsx?$": "ts-jest"
   },
